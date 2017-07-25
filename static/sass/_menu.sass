@@ -1,0 +1,79 @@
+@charset "UTF-8"
+
+#navbar
+  height: 170px
+  width: 100%
+  background-color: #81d8c8
+  color: #fff
+
+
+.social-link
+  float: right
+  margin-top: 30px
+  margin-right: 30px
+  
+  > li
+    display: inline
+    margin: 10px
+    img
+      width: 20px
+      height: 20px
+
+#navbar-logo
+  position: relative
+  top: 70px  
+  left: 40px
+  width: 500px
+  .mayor-name
+    width: 170px
+    height: 40px
+  .fist
+    width: 45px
+    height: 60px 
+    margin: 0 15px
+  .fight
+    width: 130px
+    height: 40px
+
+#menu
+  background-color: #e6e6e6
+  height: 68px
+  width: 100%
+  z-index: 1400
+  position: relative
+  top: 0
+  left: 0
+
+  li.title
+    margin: 22px 50px
+    font-size: 1.5em
+    float: left
+    &:hover ul.menu-sub
+      display: block
+
+
+    ul.menu-sub
+      position: absolute
+      z-index: 1500
+      background-color: #e6e6e6
+      width: 180px
+      height: auto
+      margin-left: -5px
+      padding-top: 20px
+      display: none
+
+      li
+        padding: 0px 20px 0 30px
+        &:hover
+          background-color: #ebebeb
+        &:hover span
+          color: #fbbb3f
+        span
+          width: 50%
+          height: auto
+          line-height: 60px
+
+        img
+          width: 50%
+          height: auto
+          margin-top: 15px

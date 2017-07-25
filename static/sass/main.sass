@@ -1,0 +1,31 @@
+@import "compass/reset"
+@import url(http://fonts.googleapis.com/earlyaccess/notosanstc.css)
+
+@mixin font_family_700
+	font-family: "Noto Sans TC", sans-serif
+	font-weight: 700
+
+@mixin font_color
+	color: #525252
+
+@mixin menu_bg
+	background: #e6e6e6
+	color: rgba(82, 96, 105, .9)
+
+// basic
+@import _page
+@import _font
+
+// layout
+@import _menu
+@import _article
+@import _rightside
+@import _footer
+
+// components
+@import _slidebar
+
+.clear
+	clear: both
+//  font-family: "Noto Sans TC", sans-serif
+  // font-weight: 700
